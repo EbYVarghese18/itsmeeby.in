@@ -1,0 +1,70 @@
+#intro-section{
+    margin-top: 100px;
+}
+
+#h2-service{
+    text-align: center;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.input-color{
+    border-color: #343a40;
+    background-color: white !important;
+    color: black !important;
+}
+.hr-color{
+    background-color: #fff;
+    width: 40%;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+}
+.card-images {
+    min-height: 315px !important;
+}
+#footer-image{
+    height: 70px;
+}
+#quote-image{
+    height: 40px;
+}
+.carousel-item
+{
+    margin-top: 85px !important;
+}
+#row-header{
+    background: black;
+}
+#body{
+    background: black;
+}
+#Para-intro{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+    margin-bottom: 22px;
+    font-family: var(--font-secondary);
+}
+.card-title{
+    color: black !important;
+}
+.card-text{
+    color: black !important;
+}
+.small{
+    color: black !important;
+}
+#inputAddress{
+    height: 100px;
+}
