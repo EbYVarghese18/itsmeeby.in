@@ -68,3 +68,9 @@ html {
 #inputAddress{
     height: 100px;
 }
+.form-address{
+    height: 100px;
+}
+.form-comments{
+    height: 360px;
+}
