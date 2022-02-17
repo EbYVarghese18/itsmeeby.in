@@ -32,7 +32,7 @@ html {
     color: black;
 }
 .card-images {
-    min-height: 340px !important;
+    min-height: 240px !important;
 }
 #footer-image{
     height: 70px;
