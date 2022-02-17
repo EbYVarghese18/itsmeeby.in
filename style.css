@@ -1,12 +1,11 @@
-#intro-section{
-    margin-top: 100px;
-}
-
 #h2-service{
     text-align: center;
 }
 .aboutmeimage{
     height: 400px;
+}
+#intro-section{
+    margin-top:150px;
 }
 html {
     scroll-behavior: smooth;
@@ -76,4 +75,11 @@ html {
 }
 .form-comments{
     height: 360px;
+}
+#footer-container{
+    height: auto;
+}
+#aboutme{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
