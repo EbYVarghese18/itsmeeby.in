@@ -2,7 +2,7 @@
     text-align: center;
 }
 #intro-section{
-    margin-top:150px;
+    margin-top:60px;
 }
 html {
     scroll-behavior: smooth;
@@ -82,4 +82,16 @@ html {
 }
 .contactmeform{
     width: 100%;
+}
+.navbar-brand{
+    color: #fff!important;
+    font-size: 40px!important;
+    font-weight: 700!important;
+    padding: 10px!important;
+}
+#navBar{
+    background-color: black !important;
+}
+.navbar-nav{
+    align-items: center !important;
 }
