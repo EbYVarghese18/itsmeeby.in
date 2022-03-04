@@ -95,3 +95,6 @@ html {
 .navbar-nav{
     align-items: center !important;
 }
+#welcome-body{
+    background: black;
+}
