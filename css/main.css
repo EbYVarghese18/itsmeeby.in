@@ -7,7 +7,10 @@ html {
 .bannerimage{
     background-image: url(../images/IMG_707822.jpg);
     background-size: cover;
-    
+    height: 550px;
+}
+#bannercontainer{
+    height: 550px;
 }
 .input-color{
     border-color: white;
@@ -53,6 +56,7 @@ html {
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
     font-weight: 900;
+    padding-top: 50px !important;
 }
 .logotext{
     font-family:cursive;
@@ -103,7 +107,7 @@ html {
     align-items: center!important;
 }
 .intro-text{
-    color:#1A2238;
+    margin-top: 40px !important;
 }
 .card{
     border-color: white!important;
