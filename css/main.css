@@ -4,6 +4,11 @@
 html {
     scroll-behavior: smooth;
 }
+.bannerimage{
+    background-image: url(../images/IMG_707822.jpg);
+    background-size: cover;
+    
+}
 .input-color{
     border-color: white;
     color: white;
