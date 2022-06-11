@@ -1,5 +1,5 @@
 .navbar-brand{
-    color: #fff!important;
+    color: black!important;
     font-size: 40px!important;
     font-weight: 700!important;
     padding: 10px!important;
@@ -8,34 +8,34 @@
     align-items: center!important;
 }
 .nav-tab{
-    color: white !important;
+    color: BLACK !important;
 }
 .navbar-bg{
-    background: black;
+    background: #E3E3E3;
 }
 
 
 .input-color{
-    color: white;
-    border-color: white;
+    color: black;
+    border-color: black;
     background-color: transparent !important;
 }
 .input-color:focus{
-    color: white;
+    color: black;
     border-color: red;
 }
 
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: white;
+    color: black;
     opacity: 1; /* Firefox */
 }
 
 .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: white;
+    color: black;
 }
 
 .form-control::-ms-input-placeholder { /* Microsoft Edge */
-    color: white;
+    color: black;
 }
 
 
@@ -49,20 +49,15 @@ html {
     scroll-behavior: smooth;
 }
 .bannerimage{
-    background-image: url(../images/IMG_707822.jpg);
+    background-image: url(../images/IMG_707822.png);
     background-size: cover;
-    height: 550px;
+    height: 500px;
+    width: 500px;
     margin-bottom: 30px;
-}
-#bannercontainer{
-    height: 550px;
-}
-.Para-intro{
-    color: #1A2238;
 }
 
 .hr-color{
-    background-color: white;
+    background-color: black;
     width: 40%;
 }
 
@@ -81,7 +76,7 @@ html {
     margin-top: 85px !important;
 }
 #body{
-    background-color: black;
+    background-color: #E3E3E3;
     font-family:'Courier New', Courier, monospace;
     background-image: linear-gradient(to bottom);
 }
@@ -95,13 +90,13 @@ html {
     font-family:cursive;
 }
 .card-title{
-    color: white !important;
+    color: black !important;
 }
 .card-text{
-    color: white!important;
+    color: black!important;
 }
 .small{
-    color: white!important;
+    color: black!important;
 }
 #inputAddress{
     height: 100px;
@@ -125,26 +120,25 @@ html {
     width: 100%;
 }
 .intro-text{
-    margin-top: 40px !important;
-    margin-bottom: 40px !important;
+    font-size: 30px;
 }
 .card{
-    border-color: white!important;
+    border-color: black!important;
 }
 .border{
-    border-color: white!important;
+    border-color: black!important;
 }
 .bg-light{
-    background-color: white!important;
+    background-color: black!important;
 }
 .border-right {
-    border-right: 1px solid white!important;
+    border-right: 1px solid black!important;
 }
 .card{
     background-color: black;
 }
 .card-body{
-    color: white;
+    color: black;
 }
 .skillcontainer{
   width: 100;
@@ -155,36 +149,36 @@ html {
     font-size: 15px;
     margin-left: 10px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 #skillsbarhtml{
     width: 90%;
     height:10px;
-    background-color: white;
+    background-color: black;
     margin-left: 1px;
 }
 #skillsbarcss{
     width: 80%;
     height:10px;
-    background-color: white;
+    background-color: black;
     margin-left: 1px;
 }
 #skillsbarjs{
     width: 65%;
     height:10px;
-    background-color: white;
+    background-color: black;
     margin-left: 1px;
 }
 #skillsbarjava{
     width: 60%;
     height:10px;
-    background-color: white;
+    background-color: black;
     margin-left: 1px;
 }
 #skillsbarc{
     width: 60%;
     height:10px;
-    background-color: white;
+    background-color: black;
     margin-left: 1px;
 }
 .skilltext span a{

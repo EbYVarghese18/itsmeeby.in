@@ -12,6 +12,7 @@
 </head>
 
 <body id="body">
+  <b>
 
       <!--Navbar-->
       <nav class="navbar navbar-bg sticky-top navbar-expand-lg navbar-dark" id="navBar">
@@ -70,14 +71,12 @@
       <!--Banner slide images-->
      
       <!--photo and title and quote-->
-    <section class="bannerimage" id="intro-section">
-      <div class="container text-center p-4" id="bannercontainer">
-        <div class="row">
+    <section id="intro-section">
+      <div class="container text-center p-4">
+       <div class="row">
           <div class="col-sm-12 col-md-6 my-auto pt-5 intro-text" data-aos="zoom-in" data-aos-duration="1300">
-            <p id="Para-intro">
-            <h1>Hi, I'm Ebin Varghese <br><br>
-            Web Designer & Front End Developer</h1><br>
-            </p>
+            Hi, I'm Ebin Varghese <br><br>
+            Web Designer & Front End Developer<br>
             <!--<blockquote class="blockquote">
               <p>"You have the power to create your own future"</p>
               <footer>-EbY</footer> 
@@ -90,14 +89,16 @@
          <!-- <div class="col-sm-12 col-md-6 text-center my-auto pb-5">
             <img class="mx-auto d-block img-fluid" data-aos="fade-left" data-aos-anchor-placement="top-center" src="images/64-649043_web-development-is-a-broad-term-for-the.png" alt="Photo">
           </div> -->
-        </div>
+          <div class="col bannerimage img-fluid" data-aos="zoom-in" data-aos-duration="1300"> 
+          </div>        
+       </div>
       </div>
     </section>
       <!--photo and title and quote ends-->
 
       <!--About me starts-->
     <section id="aboutme-section">
-      <h2 class="headingtext text-center text-white" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1400" id="aboutme">About me</h2>
+      <h2 class="headingtext text-center" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1400" id="aboutme">About me</h2>
 
       <div class="container p-4">
         <div class="row">
@@ -105,7 +106,7 @@
             <img class="mx-auto d-block img-fluid" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1400" src="images/Untitled.jpg" alt="">
           </div>
           <div class="col-sm-12 col-md-6 text-center my-auto pb-5">
-            <p class="text-white text-justify" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1400">&nbsp&nbsp&nbsp&nbsp&nbsp
+            <p class="text-justify" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1400">&nbsp&nbsp&nbsp&nbsp&nbsp
               I am Ebin Varghese, a tireless seeker of knowledge, occasional purveyor of wisdom, and also, coincidentally, a java and front-end developer. 
               Currently working in Zinple Infosolutions Pvt ltd, India as Software Developer. I am a graduate of the BCA program at the prestigious IGNOU in Bangalore, India. 
               I should hope my work reflects that. I have a year of experience as a junior software engineer with Zinple Infosolution Pvt Ltd. 
@@ -213,7 +214,7 @@
 
     <!-- Skills Starts -->
     <section id="skills-section">
-      <h2 class="headingtext text-center text-white py-3" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1400">Skills</h2>
+      <h2 class="headingtext text-center py-3" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1400">Skills</h2>
      
       <div class="container p-4">
         <div class="row">
@@ -250,7 +251,7 @@
 
     <!-- Portfolio starts -->
     <section class="p-4" id="portfolio-section">
-      <h2 class="headingtext text-center text-white py-3" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1400" >My Portfolio</h2>
+      <h2 class="headingtext text-center py-3" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1400" >My Portfolio</h2>
       
       <div class="container py-2 mt-4 mb-4">
           <div class="portfolio" id="portfolio">
@@ -293,7 +294,7 @@
 
       <!--Experience-->
     <section class="p-4" id="experience-section">
-      <h2 class="headingtext text-center text-white py-3" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1400" >Experience</h2>
+      <h2 class="headingtext text-center py-3" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1400" >Experience</h2>
 
       <div class="container py-2 mt-4 mb-4">
         <!-- timeline item 1 -->
@@ -463,12 +464,12 @@
 
       <!--contact me-->
     <section id="contactme-section">
-      <h2 class="headingtext text-center text-white p-4" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1400">Contact Me</h2>
+      <h2 class="headingtext text-center p-4" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1400">Contact Me</h2>
      
         <div id="error" class="container">
           <form onsubmit="return validate()" action="" id="contactmeform">
 
-            <div class="row text-white">
+            <div class="row">
               <div class="col" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="1400">
                 <div class="form-group">
                   <label for="uname">Name</label>
@@ -508,14 +509,14 @@
     <footer>
       <div class="container p-4" data-aos="zoom-in" data-aos-anchor-placement="top-bottom" data-aos-duration="2500" id="footer-container">
         <div class="row">
-          <div class="col text-white text-center pt-5">
+          <div class="col text-center pt-5">
             <img class="rounded-circle" src="https://media-exp1.licdn.com/dms/image/C5603AQFJM515psSRpA/profile-displayphoto-shrink_200_200/0/1639750199612?e=1657152000&v=beta&t=JXmVgb2Rf_ZnCXDq1J4-t_iS9Juwx2C6KZdAltpSKCw" alt="" class="src" id="footer-image">
             <h2 class="text-center p-2"> Ebin Varghese</h2>
             <h4 class="text-center p-2"> Wayanad, Kerala, India</h4>
             <h4 class="text-center p-2"> +91-8891658325 | ebyvarghese18@gmail.com</h4>
           </div>
         </div>
-        <div class="row text-white" id="row-footer">
+        <div class="row" id="row-footer">
           <div class="col">
             <p class="text-center pt-5">@itsmeeby.in, All rights reserved. Designed by LukeDesigns.in</p>
           </div>
@@ -523,7 +524,7 @@
       </div>
     </footer>
       <!--Footer ends-->
-  
+    </b>
 <script type="text/javascript" src="js/jQuery.min.js"></script>
 <script type="text/javascript" src="js/popper.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
