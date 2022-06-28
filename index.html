@@ -542,18 +542,20 @@
         method:"post",
         success:function (response){
             alert("Form submitted successfully")
+            document.getElementById("uname").value=null;
+            document.getElementById("email").value=null;
+            document.getElementById("mobile").value=null;
+            document.getElementById("address").value=null;
+            document.getElementById("comments").value=null;
             //window.location.reload()
             //window.location.href="welcome.html"
         },
         error:function (err){
-            alert("Something Error")
-
+            alert("Something Error") 
         }
       })
     })
   
 </script>
-
-
 </body>
 </html>
