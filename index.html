@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><!-- for formsubmission -->
 </head>
 
 <body id="body">
@@ -542,7 +542,7 @@
     $("#contactmeform").submit((e)=>{
     e.preventDefault()
     $.ajax({
-        url:"https://script.google.com/macros/s/AKfycbxYXJuA560QwuL0Qt85zjoOk-JhXvJofqdAOmfmB4-a_xu4svoS/exec",
+        url:"https://script.google.com/macros/s/AKfycbxjzIGoQ5rBnBx3HyxQ47gpvSMIUNTXHn2LrV2lf9PCFDeZPdAabpSKanS7Goi7ef7M/exec",
         data:$("#contactmeform").serialize(),
         method:"post",
         success:function (response){
