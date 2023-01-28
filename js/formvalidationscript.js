@@ -1,10 +1,10 @@
 function validate()
 {
-    var username = document.getElementById('uname');
-    var email = document.getElementById('email');
-    var mobile = document.getElementById('mobile');
-    var address = document.getElementById('address');
-    var comments = document.getElementById('comments');
+    const username = document.getElementById('uname');
+    const email = document.getElementById('email');
+    const mobile = document.getElementById('mobile');
+    const address = document.getElementById('address');
+    const comments = document.getElementById('comments');
     
     if(username.value.trim() == "" || email.value.trim() == "" || mobile.value.trim() == "" || address.value.trim() == "" || comments.value.trim() == "")
     {
@@ -13,6 +13,6 @@ function validate()
     }
     else
     {
-        true;
+        return true;
     }
 }
